@@ -1,5 +1,5 @@
-# openRTSP-recorder
-This is a simple python script to convert Linux based machine to an NVR. The code streams video from IP cameras in your network and splits the video into pre-determined segments (by default, 10 minute-long segments). The videos are stored in your local hard-drive. If you do not need any fancy GUIs, motion detection, etc., this is a simple tool to build your own NVR with cheap cameras purchased online. 
+# linux-nvr
+This is a simple python script to use a Linux machine as an NVR. The code streams video from IP cameras in your network and splits the video into pre-determined segments (by default, 10 minute-long segments). The videos are stored in your local hard-drive. If you do not need any fancy GUIs, motion detection, etc., this is a simple tool to build your own NVR with cheap cameras purchased online. 
 
 This is achieved using RTSP protocol, and the code calls [openRTSP](http://www.live555.com/openRTSP/). See prerequisites for openRTSP installation instructions.
 
