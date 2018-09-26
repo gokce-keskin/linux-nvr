@@ -35,6 +35,6 @@ Install openRTSP as below (from https://askubuntu.com/questions/693396/openrtsp-
 * Install the new version:
 
 `make install`
-*Stop being root:
+* Stop being root:
 
 `exit`
