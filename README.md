@@ -6,7 +6,7 @@ This is achieved using RTSP protocol, and the code calls openRTSP (http://www.li
 ## Usage:
 `python record.py --camera camera1 --record-period 600`
 
-*Please edit camera1's IP address in the code.*
+*Please edit camera1's IP address in the code. Also, you might need to modify the RTSP command in record.py to match your camera's format. You can find that format from the camera's user manual. This webpage also has a comprehensive list of these commands for many brands: https://www.ispyconnect.com/sources.aspx*
 
 ## Motivation
 In theory, openRTSP should automatically perform streaming the video and splitting it into pre-determined chunks. In practice, I found out that RTSP connections drop and saved files are much longer than they should be, with frequent errors. The goal of this script is to run openRTSP only for relatively short periods of time (10 minutes each), and open a new stream every 10 minutes.
